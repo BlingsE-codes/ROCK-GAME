@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+
+html, body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+  }
+
+#form{
+    width: 700px;
+    height: 700px;
+    display:flexbox;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #668994;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 13px 10px 5px 3px rgba(27, 25, 20, 0.2);
+    min-width: 50vw;
+    min-height: 50vh;
+
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(25, 60, 126);
+    margin: 10px;
+    padding: 2px;
+}
+
+.mychoice{
+    margin-bottom: 30px ;
+}
+
+.mychoice button{
+    margin: 0px 10px;
+    font-size: 7.5rem;
+    min-width: 160px;
+    border-radius: 5rem;
+    background-color: rgb(108, 170, 149);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.mychoice button:hover{
+    background-color: rgb(108, 140, 200);
+}
+
+#btn1:active{
+    background-color: rgb(238, 101, 9);
+    font-size: 7rem;
+
+}
+
+#btn1:active{
+    background-color: rgb(238, 101, 9);
+    font-size: 7.9rem;
+
+}
+
+#btn2:active{
+    background-color: rgb(238, 101, 9);
+    font-size: 7.9rem;
+
+}
+
+#btn3:active{
+    background-color: rgb(238, 101, 9);
+    font-size: 7.9rem;
+
+}
+
+
+
+#playerDisplay, #computerDisplay{
+    font-size: 2.8rem;
+}
+#resultDisplay{
+    font-size: 3.7rem;
+}
+
+#scoreDisplay{
+    font-size: 2rem;
+}
+
+.greenText, #playerscoreDiplay {
+    color: rgb(21, 226, 21);
+}
+
+.redText, #computerscoreDiplay {
+    color: rgb(231, 27, 27);
+}
+@media screen and (max-width: 700px) {
+    #form{
+        width: 100%;
+        height: 100%;
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .mychoice button{
+        font-size: 4rem;
+        min-width: 120px;
+        position:sticky;
+    }
+    #playerDisplay, #computerDisplay{
+        font-size: 2rem;
+        position: sticky;
+    }
+    #resultDisplay{
+        font-size: 2.2rem;
+    }
+    #scoreDisplay{
+        font-size: 1.5rem;
+    }
+    
+}
+#p1{
+    font-size: 15px;
+    margin-top: 80px;
+    margin-right: 400px;
+}
+#p2{
+    font-size: 15px;
+    margin-right: 440px;
+}
+ 
